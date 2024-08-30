@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .post-feed {
+    background-color: #f7f7f7;
+    width: 1000px;
+    padding: 1em;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-feed h1 {
+    margin-top: 0;
+  }
+  
+  #post-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .post {
+    background-color: #fff;
+    padding: 1em;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .post:last-child {
+    border-bottom: none;
+  }
+  
+  .post-author {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .post-content {
+    margin-bottom: 20px;
+  }
+  
+  .like-button, .follow-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .like-button:hover, .follow-button:hover {
+    background-color: #444;
+  }
